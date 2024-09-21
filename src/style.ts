@@ -6,7 +6,7 @@ export const i_h1 = style(
         fontSize: '40px',
         fontStyle: 'normal',
         lineHeight: '42px',
-        letterSpacing: '0em',
+        letterSpacing: '0.02em',
     },
     media(
         {
@@ -35,7 +35,7 @@ export const i_h2 = style(
         fontSize: '32px',
         fontStyle: 'normal',
         lineHeight: '35px',
-        letterSpacing: '0em',
+        letterSpacing: '0.02em',
     },
     media(
         {
@@ -63,7 +63,7 @@ export const i_h3 = style(
         fontSize: '24px',
         fontStyle: 'normal',
         lineHeight: '25px',
-        letterSpacing: '0em',
+        letterSpacing: '0.02em',
     },
     media(
         {
@@ -91,7 +91,7 @@ export const i_h4 = style(
         fontSize: '18px',
         fontStyle: 'normal',
         lineHeight: '22px',
-        letterSpacing: '0em',
+        letterSpacing: '0.02em',
     },
     media(
         {
@@ -119,7 +119,7 @@ export const i_h5 = style(
         fontSize: '14px',
         fontStyle: 'normal',
         lineHeight: '17px',
-        letterSpacing: '0em',
+        letterSpacing: '0.02em',
     },
     media(
         {
@@ -147,7 +147,7 @@ export const i_text_d = style(
         fontSize: '16px',
         fontStyle: 'normal',
         lineHeight: '24px',
-        letterSpacing: '0em',
+        letterSpacing: '0.02em',
     },
     media(
         {
@@ -193,7 +193,7 @@ export const i_text_copy_bold = style(
         fontSize: '12px',
         fontStyle: 'normal',
         lineHeight: '15px',
-        letterSpacing: '-0.02em',
+        letterSpacing: '0.02em',
         //textAlign: 'left',
     },
     media(
