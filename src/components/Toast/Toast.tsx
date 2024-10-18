@@ -55,17 +55,26 @@ export const useCustomToast = () => {
                 return (
                     <Card
                         variant="base"
-                        borderRadius="4px"
+                        h="106px"
+                        borderRadius="15px"
                         w={isMobile ? '350px' : '400px'}
                         minH="50px"
                         position="relative"
-                        bg={colorTheme('#fff', '#1E2631')}
+                        border="1px solid #000"
+                        bg={colorTheme('#FFFDF6', '#1E2631')}
                     >
                         <Center w="100%" h="100%" pl="18px" py="14px">
                             {type ? (
                                 <HStack w="100%" borderRadius="6px">
                                     {theme[type as ToastType].img}
-                                    <Divider h="66px" orientation="vertical" ml="12px !important" mr="8px !important"></Divider>
+                                    <Divider
+                                        h="48px"
+                                        borderColor="#000"
+                                        opacity={1}
+                                        orientation="vertical"
+                                        ml="12px !important"
+                                        mr="8px !important"
+                                    ></Divider>
                                     <Stack maxW={isMobile ? '225px' : '275px'}>
                                         <Text className={i_text_copy_bold} color={colorTheme('#3D3062', '#FFFFFF')} noOfLines={5}>
                                             {title}

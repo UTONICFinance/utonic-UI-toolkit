@@ -11,9 +11,8 @@ const CloseButton: React.FC<CloseButtonProps> = (props) => {
         <Image
             onClick={onClose}
             cursor="pointer"
-            w="30px"
-            h="30px"
-            p="8px"
+            w="10px"
+            h="10px"
             src={process.env.PUBLIC_URL + '/assets/trade/lightCloseButton.svg'}
             _hover={{ opacity: '0.7' }}
             {...rest}
