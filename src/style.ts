@@ -193,8 +193,6 @@ export const i_text_copy_bold = style(
         fontSize: '12px',
         fontStyle: 'normal',
         lineHeight: '15px',
-        letterSpacing: '0.02em',
-        //textAlign: 'left',
     },
     media(
         {
