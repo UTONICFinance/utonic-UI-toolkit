@@ -57,7 +57,7 @@ export const useCustomToast = () => {
                         variant="base"
                         h="106px"
                         borderRadius="15px"
-                        w={isMobile ? '350px' : '400px'}
+                        w={isMobile ? '300px' : '400px'}
                         minH="50px"
                         position="relative"
                         border="1px solid #000"
